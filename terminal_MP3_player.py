@@ -21,6 +21,7 @@ print('Below are the list of songs in this directory')
 for index,song in enumerate(songs):
     print('{}. {}'.format(index+1,song))
 
+#If there are any songs in the directory
 if len(songs)>1:
     try:
         choice=int(input('Enter the song index which you want to play...'))
